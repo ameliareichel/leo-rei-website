@@ -1,0 +1,60 @@
+@mixin nav-link {
+    color: $main-font-color;
+    background-color: $secondary-font-color;
+}
+
+@mixin nav-link-hover {
+    cursor: pointer;
+    color: $secondary-font-color;
+    font-size: 17px;
+    border-bottom: 2px solid $secondary-font-color;
+    box-shadow: $secondary-font-color 2px 2px 12px;
+    background-color: $main-font-color;
+}
+
+@mixin post {
+    background-color: $main-font-color;
+    width: 200px;
+    padding: 20px 10px;
+    padding-bottom: 80px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    box-shadow: #211a42 0px 20px 20px;
+}
+
+@mixin post-hover {
+    cursor: pointer;
+    box-shadow: $accent-color 0px 20px 20px;
+}
+
+@mixin post-link {
+    position: relative;
+    top: -54px;
+    display: block;
+    text-decoration: none;
+    color: $header-font-color;
+}
+
+@mixin commission-list {
+    border: 1px solid $secondary-font-color;
+    box-shadow: $secondary-font-color 1px 1px 10px;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    padding: 30px 0;
+}
+
+@mixin form-input {
+    font-family: $main-font;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    color: #8b7cad;
+    width: 160px;
+    transition: all 0.3s;
+}
+
+@mixin form-input-onchange {
+    box-shadow: #8b7cad 1px 1px 12px;
+}

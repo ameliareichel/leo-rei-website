@@ -1,0 +1,11 @@
+input {
+    @include form-input;
+
+    &:hover {
+        @include form-input-onchange;
+    }
+
+    &:focus {
+        @include form-input-onchange;
+    }
+}

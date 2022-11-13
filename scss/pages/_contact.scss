@@ -1,0 +1,35 @@
+body {
+
+    #contact {
+        padding: 40px 30px;
+        padding-bottom: 60px;
+        background-image: url('../images/contact-image.jpg');
+        background-position: 60% center;
+        background-size: cover;
+
+        .main-contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            height: 500px;
+
+            h2 {
+                color: $main-font-color;
+                letter-spacing: 1px;
+            }
+
+            form.contact-form {
+
+                label {
+                    font-size: 18px;
+                    display: inline-block;
+                    color: #fff;
+                    margin: 10px auto;
+                    margin-top: 15px;
+                }
+
+            }
+        }
+    }
+}

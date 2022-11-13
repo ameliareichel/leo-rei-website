@@ -1,0 +1,108 @@
+body {
+
+    .separator.thick {
+        margin-top: 2px;
+    }
+
+    .separator.thin.commission {
+        background-color: $header-font-color;
+        margin-top: 2px;
+    }
+
+    #commissions {
+        padding: 0 30px;
+        text-align: center;
+        background-color: $secondary-background-color;
+        padding-bottom: 60px;
+
+        .commissions-heading {
+            padding-top: 20px;
+
+            h2 {
+                color: $header-font-color;
+                text-shadow: 1px 1px 2px #8b7cad;
+                letter-spacing: 1px;
+            }
+
+            p {
+                margin: 16px auto;
+                color: $accent-font-color;
+            }
+        }
+
+        .commissions-prices {
+            margin-top: 40px;
+
+            .main-commissions-container.leo {
+                border: 2px solid $accent-color;
+                border-radius: 5px;
+                box-shadow: #8b7cad 0 20px 20px;
+                transition: all 0.3s;
+
+                &:hover {
+                    transform: translate(0, -10px);
+                    box-shadow: $header-font-color 0 25px 20px;
+                }
+
+                .commissions-container {
+
+                    .commissions-list {
+                        padding: 0 20px;
+
+                        .commissions-content {
+
+                            p {
+                                color: #8b7cad;
+                                font-weight: 600;
+
+                                span {
+                                    color: $accent-color;
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .main-commissions-container.rei {
+                margin-top: 60px;
+                border: 2px solid $accent-color;
+                border-radius: 5px;
+                box-shadow: #8b7cad 0 20px 20px;
+                transition: all 0.3s;
+
+                &:hover {
+                    transform: translate(0, -10px);
+                    box-shadow: $header-font-color 0 25px 20px;
+                }
+
+                .commissions-container {
+
+                    .commissions-list {
+                        padding: 0 20px;
+
+                        .commissions-content {
+
+                            p {
+                                color: #8b7cad;
+                                font-weight: 600;
+                            }
+
+                            ul {
+
+                                li {
+
+                                    span {
+                                        color: $accent-color;
+                                        font-weight: 600;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

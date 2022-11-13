@@ -1,0 +1,38 @@
+.page-container {
+    position: relative;
+}
+
+h1 {
+    font-family: $secondary-font;
+    font-style: italic;
+    color: $main-font-color;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+h2 {
+    font-family: $secondary-font;
+    font-style: italic;
+    color: $main-font-color;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #fff;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-family: $secondary-font;
+    font-style: italic;
+    color: $header-font-color;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #8b7cad;
+    letter-spacing: 1px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    line-height: 30px;
+}

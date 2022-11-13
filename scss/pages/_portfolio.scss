@@ -1,0 +1,70 @@
+body {
+    font-family: $main-font;
+
+    .separator.thin {
+        background-color: #211a42;
+        height: 15px;
+        margin-bottom: 2px;
+    }
+
+    .separator.thick {
+        background-color: $accent-color;
+        height: 20px;
+    }
+
+    #portfolio {
+        text-align: center;
+        background: linear-gradient(#211a42, #605579);
+        margin-top: 2px;
+        padding: 20px 0;
+
+        .portfolio-content {
+
+            .portfolio-leo {
+
+                .portfolio-post-row {
+
+                    .portfolio-post {
+                        margin: 20px auto;
+                        width: 280px;
+
+                        img {
+                            @include post;
+
+                            &:hover {
+                                @include post-hover;
+                            }
+                        }
+
+                        a {
+                            @include post-link;
+                        }
+                    }
+                }
+            }
+
+            .portfolio-rei {
+
+                .portfolio-post-row {
+
+                    .portfolio-post {
+                        margin: 20px auto;
+                        width: 280px;
+
+                        img {
+                            @include post;
+
+                            &:hover {
+                                @include post-hover;
+                            }
+                        }
+
+                        a {
+                            @include post-link;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

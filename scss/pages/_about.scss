@@ -1,0 +1,45 @@
+body {
+    background-color: #f8eeff;
+
+    #about-us {
+        padding: 0 30px;
+        margin: 80px auto;
+        text-align: center;
+        background-color: #f8eeff;
+
+        .about-us-heading {
+
+            h2 {
+                color: $header-font-color;
+                text-shadow: 1px 1px 2px #8b7cad;
+                margin: 0;
+            }
+
+            p {
+                font-family: $main-font;
+                color: $accent-font-color;
+                padding: 5px auto;
+            }
+        }
+
+        .about-us-pictures {
+            height: 410px;
+
+            .img-frame {
+                width: 200px;
+                margin: 10px auto;
+            }
+
+            .img-about {
+                position: relative;
+                display: block;
+                margin: 0 auto;
+                top: -386px;
+                width: 95px;
+                border: 1px solid #f8eeff;
+                border-radius: 100px;
+                margin-bottom: 128px;
+            }
+        }
+    }
+}
