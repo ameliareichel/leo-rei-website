@@ -8,6 +8,7 @@ body {
         background-color: #f8eeff;
 
         .about-us-heading {
+            margin-bottom: 20px;
 
             h2 {
                 color: $header-font-color;
@@ -23,22 +24,15 @@ body {
         }
 
         .about-us-pictures {
-            height: 410px;
+            height: 420px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
 
             .img-frame {
                 width: 200px;
-                margin: 10px auto;
-            }
-
-            .img-about {
-                position: relative;
-                display: block;
-                margin: 0 auto;
-                top: -386px;
-                width: 95px;
-                border: 1px solid #f8eeff;
-                border-radius: 100px;
-                margin-bottom: 128px;
+                height: 200px;
+                margin-top: 20px;
             }
         }
     }

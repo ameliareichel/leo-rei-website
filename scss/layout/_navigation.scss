@@ -133,3 +133,32 @@
         }
     }
 }
+
+@media all and (min-width: $extra-small-size) {
+    .page-container {
+
+        .header-section {
+
+            .white-circle.big {
+                top: -120px;
+                left: 150px;
+            }
+
+            .nav-bg-image {
+
+                img {
+                    transform: rotate(10deg);
+                    position: relative;
+                    left: 150px;
+                    bottom: 400px;
+                    width: 250px;
+                }
+            }
+
+            .white-circle.small {
+                width: 190px;
+                left: -50px;
+            }
+        }
+    }
+}

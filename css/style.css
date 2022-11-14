@@ -416,6 +416,23 @@ input:focus {
   filter: blur(6px);
 }
 
+@media all and (min-width: 480px) {
+  .page-container .header-section .white-circle.big {
+    top: -120px;
+    left: 150px;
+  }
+  .page-container .header-section .nav-bg-image img {
+    transform: rotate(10deg);
+    position: relative;
+    left: 150px;
+    bottom: 400px;
+    width: 250px;
+  }
+  .page-container .header-section .white-circle.small {
+    width: 190px;
+    left: -50px;
+  }
+}
 body footer.footer-section {
   border-top: 1px solid #fff5b5;
   background-color: #1c1638;
@@ -437,6 +454,9 @@ body #about-us {
   text-align: center;
   background-color: #f8eeff;
 }
+body #about-us .about-us-heading {
+  margin-bottom: 20px;
+}
 body #about-us .about-us-heading h2 {
   color: #605579;
   text-shadow: 1px 1px 2px #8b7cad;
@@ -448,21 +468,15 @@ body #about-us .about-us-heading p {
   padding: 5px auto;
 }
 body #about-us .about-us-pictures {
-  height: 410px;
+  height: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 body #about-us .about-us-pictures .img-frame {
   width: 200px;
-  margin: 10px auto;
-}
-body #about-us .about-us-pictures .img-about {
-  position: relative;
-  display: block;
-  margin: 0 auto;
-  top: -386px;
-  width: 95px;
-  border: 1px solid #f8eeff;
-  border-radius: 100px;
-  margin-bottom: 128px;
+  height: 200px;
+  margin-top: 20px;
 }
 
 body {
