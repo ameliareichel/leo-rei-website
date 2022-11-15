@@ -97,6 +97,10 @@
                 padding-bottom: 145px;
                 font-family: $main-font;
             }
+
+            a {
+                display: none;
+            }
         }
 
         .white-circle.big {
@@ -227,6 +231,54 @@
     }
 }
 
+@media all and (min-width: 892px) {
+    .page-container {
+
+        .header-section {
+
+            .header-description {
+                position: relative;
+                top: 110px;
+                width: 350px;
+                padding: 0 80px;
+
+                p {
+                    padding-bottom: 50px;
+                }
+
+                a {
+                    display: block;
+                    margin: 0 20px;
+                    width: 60px;
+
+                    img {
+                        width: 60px;
+                    }
+                }
+            }
+
+            .white-circle.big {
+                width: 340px;
+                height: 340px;
+                top: -200px;
+                left: 460px;
+            }
+
+            .nav-bg-image {
+
+                img {
+                    top: -490px;
+                    left: 480px;
+                }
+            }
+
+            .white-circle.small {
+                display: none;
+            }
+        }
+    }
+}
+
 @media all and (min-width: $large-size) {
     .page-container {
 
@@ -281,13 +333,17 @@
                 h1 {
                     padding-top: 20px;
                 }
+
+                p {
+                    padding-bottom: 60px;
+                }
             }
 
             .white-circle.big {
                 border-radius: 1000px;
                 height: 400px;
                 width: 400px;
-                top: -250px;
+                top: -230px;
                 left: 500px;
             }
 
@@ -297,6 +353,41 @@
                     transform: rotate(10deg);
                     position: relative;
                     left: 530px;
+                    top: -590px;
+                    width: 300px;
+                }
+            }
+
+            .white-circle.small {
+                display: none;
+            }
+        }
+    }
+}
+
+@media all and (min-width: $extra-large-size) {
+    .page-container {
+
+        .header-section {
+
+            .header-description {
+                padding: 0 200px;
+
+                img {
+                    width: 60px;
+                }
+            }
+
+            .white-circle.big {
+                left: 680px;
+            }
+
+            .nav-bg-image {
+
+                img {
+                    transform: rotate(10deg);
+                    position: relative;
+                    left: 710px;
                     top: -610px;
                     width: 300px;
                 }

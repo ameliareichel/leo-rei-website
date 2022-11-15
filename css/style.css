@@ -388,6 +388,9 @@ input:focus {
   padding-bottom: 145px;
   font-family: "Montserrat", sans-serif;
 }
+.page-container .header-section .header-description a {
+  display: none;
+}
 .page-container .header-section .white-circle.big {
   position: relative;
   background-color: #fff;
@@ -473,6 +476,38 @@ input:focus {
     top: -550px;
   }
 }
+@media all and (min-width: 892px) {
+  .page-container .header-section .header-description {
+    position: relative;
+    top: 110px;
+    width: 350px;
+    padding: 0 80px;
+  }
+  .page-container .header-section .header-description p {
+    padding-bottom: 50px;
+  }
+  .page-container .header-section .header-description a {
+    display: block;
+    margin: 0 20px;
+    width: 60px;
+  }
+  .page-container .header-section .header-description a img {
+    width: 60px;
+  }
+  .page-container .header-section .white-circle.big {
+    width: 340px;
+    height: 340px;
+    top: -200px;
+    left: 460px;
+  }
+  .page-container .header-section .nav-bg-image img {
+    top: -490px;
+    left: 480px;
+  }
+  .page-container .header-section .white-circle.small {
+    display: none;
+  }
+}
 @media all and (min-width: 992px) {
   .page-container .header-section .hamburger-navigation-container .hamburger-navigation .hamburger {
     display: none;
@@ -510,17 +545,41 @@ input:focus {
   .page-container .header-section .header-description h1 {
     padding-top: 20px;
   }
+  .page-container .header-section .header-description p {
+    padding-bottom: 60px;
+  }
   .page-container .header-section .white-circle.big {
     border-radius: 1000px;
     height: 400px;
     width: 400px;
-    top: -250px;
+    top: -230px;
     left: 500px;
   }
   .page-container .header-section .nav-bg-image img {
     transform: rotate(10deg);
     position: relative;
     left: 530px;
+    top: -590px;
+    width: 300px;
+  }
+  .page-container .header-section .white-circle.small {
+    display: none;
+  }
+}
+@media all and (min-width: 1200px) {
+  .page-container .header-section .header-description {
+    padding: 0 200px;
+  }
+  .page-container .header-section .header-description img {
+    width: 60px;
+  }
+  .page-container .header-section .white-circle.big {
+    left: 680px;
+  }
+  .page-container .header-section .nav-bg-image img {
+    transform: rotate(10deg);
+    position: relative;
+    left: 710px;
     top: -610px;
     width: 300px;
   }
