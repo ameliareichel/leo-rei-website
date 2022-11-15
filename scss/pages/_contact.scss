@@ -33,3 +33,28 @@ body {
         }
     }
 }
+
+@media all and (min-width: $extra-large-size) {
+    body {
+
+        #contact {
+            // padding: 40px 30px;
+            // padding-bottom: 60px;
+            // background-image: url('../images/contact-image.jpg');
+            // background-position: 60% center;
+            // background-size: cover;
+
+            .main-contact-container {
+
+                h2 {
+                    flex-basis: 100%;
+                }
+
+                form.contact-form {
+                    margin-top: -100px;
+
+                }
+            }
+        }
+    }
+}

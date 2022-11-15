@@ -533,7 +533,7 @@ input:focus {
   }
   .page-container .header-section .main-navigation-container .navbar-elements-container .navbar-elements .navbar-element a:hover {
     cursor: pointer;
-    color: #605579;
+    color: #fff5b5;
     font-size: 20px;
   }
   .page-container .header-section .header-description {
@@ -568,7 +568,7 @@ input:focus {
 }
 @media all and (min-width: 1200px) {
   .page-container .header-section .header-description {
-    padding: 0 200px;
+    padding: 0 210px;
   }
   .page-container .header-section .header-description img {
     width: 60px;
@@ -810,6 +810,7 @@ body #commissions .commissions-prices .main-commissions-container.rei .commissio
   }
   body #commissions .commissions-prices {
     display: flex;
+    justify-content: center;
   }
   body #commissions .commissions-prices .main-commissions-container.leo {
     height: 800px;
@@ -844,4 +845,13 @@ body #contact .main-contact-container form.contact-form label {
   color: #fff;
   margin: 10px auto;
   margin-top: 15px;
+}
+
+@media all and (min-width: 1200px) {
+  body #contact .main-contact-container h2 {
+    flex-basis: 100%;
+  }
+  body #contact .main-contact-container form.contact-form {
+    margin-top: -100px;
+  }
 }/*# sourceMappingURL=style.css.map */
