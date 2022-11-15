@@ -361,7 +361,7 @@ input:focus {
 }
 .page-container .header-section .main-navigation-container .navbar-elements-container .navbar-elements .navbar-element a:hover {
   cursor: pointer;
-  color: #605579;
+  color: #8b7cad;
   font-size: 17px;
 }
 .page-container .header-section .main-navigation-container.unfolded {
@@ -471,6 +471,61 @@ input:focus {
     border-radius: 200px;
     left: 0;
     top: -550px;
+  }
+}
+@media all and (min-width: 992px) {
+  .page-container .header-section .hamburger-navigation-container .hamburger-navigation .hamburger {
+    display: none;
+  }
+  .page-container .header-section .main-navigation-container {
+    display: block;
+    text-align: center;
+    background-color: transparent;
+  }
+  .page-container .header-section .main-navigation-container .navbar-elements-container {
+    margin: 0 auto;
+  }
+  .page-container .header-section .main-navigation-container .navbar-elements-container .navbar-elements {
+    padding: 40px 60px;
+  }
+  .page-container .header-section .main-navigation-container .navbar-elements-container .navbar-elements .navbar-element {
+    margin: 10px 15px;
+    display: inline;
+  }
+  .page-container .header-section .main-navigation-container .navbar-elements-container .navbar-elements .navbar-element a {
+    font-size: 20px;
+    font-family: "El Messiri", sans-serif;
+  }
+  .page-container .header-section .main-navigation-container .navbar-elements-container .navbar-elements .navbar-element a:hover {
+    cursor: pointer;
+    color: #605579;
+    font-size: 20px;
+  }
+  .page-container .header-section .header-description {
+    padding: 0 80px;
+    width: 400px;
+    position: relative;
+    top: 120px;
+  }
+  .page-container .header-section .header-description h1 {
+    padding-top: 20px;
+  }
+  .page-container .header-section .white-circle.big {
+    border-radius: 1000px;
+    height: 400px;
+    width: 400px;
+    top: -250px;
+    left: 500px;
+  }
+  .page-container .header-section .nav-bg-image img {
+    transform: rotate(10deg);
+    position: relative;
+    left: 530px;
+    top: -610px;
+    width: 300px;
+  }
+  .page-container .header-section .white-circle.small {
+    display: none;
   }
 }
 body footer.footer-section {
