@@ -32,6 +32,7 @@ body {
                             @include post;
 
                             &:hover {
+                                transform: translate(0, -5px);
                                 @include post-hover;
                             }
                         }
@@ -55,6 +56,7 @@ body {
                             @include post;
 
                             &:hover {
+                                transform: translate(0, -5px);
                                 @include post-hover;
                             }
                         }
@@ -62,6 +64,31 @@ body {
                         a {
                             @include post-link;
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: $medium-size) {
+    body {
+
+        #portfolio {
+
+            .portfolio-content {
+
+                .portfolio-leo {
+
+                    .portfolio-post-row {
+                        display: flex;
+                    }
+                }
+
+                .portfolio-rei {
+
+                    .portfolio-post-row {
+                        display: flex;
                     }
                 }
             }

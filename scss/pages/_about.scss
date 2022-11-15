@@ -37,3 +37,16 @@ body {
         }
     }
 }
+
+@media all and (min-width: $extra-small-size) {
+    body {
+
+        #about-us {
+            margin-bottom: 0;
+
+            .about-us-pictures {
+                height: 290px;
+            }
+        }
+    }
+}

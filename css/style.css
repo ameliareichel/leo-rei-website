@@ -433,16 +433,59 @@ input:focus {
     left: -50px;
   }
 }
+@media all and (min-width: 576px) {
+  .page-container .header-section .white-circle.big {
+    width: 340px;
+    height: 340px;
+    top: -140px;
+    left: 220px;
+  }
+  .page-container .header-section .nav-bg-image img {
+    transform: rotate(10deg);
+    position: relative;
+    top: -450px;
+    left: 230px;
+  }
+  .page-container .header-section .white-circle.small {
+    width: 220px;
+    height: 220px;
+    left: -40px;
+  }
+}
+@media all and (min-width: 768px) {
+  .page-container .header-section .white-circle.big {
+    width: 340px;
+    height: 340px;
+    top: -115px;
+    left: 400px;
+  }
+  .page-container .header-section .nav-bg-image img {
+    transform: rotate(10deg);
+    position: relative;
+    top: -430px;
+    left: 400px;
+  }
+  .page-container .header-section .white-circle.small {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    left: 0;
+    top: -550px;
+  }
+}
 body footer.footer-section {
   border-top: 1px solid #fff5b5;
   background-color: #1c1638;
-  height: 46px;
+  height: 105px;
   text-align: center;
   padding: 20px 30px;
 }
 body footer.footer-section p {
   color: #fff5b5;
   font-size: 14px;
+}
+body footer.footer-section a img {
+  width: 50px;
 }
 
 body {
@@ -479,6 +522,14 @@ body #about-us .about-us-pictures .img-frame {
   margin-top: 20px;
 }
 
+@media all and (min-width: 480px) {
+  body #about-us {
+    margin-bottom: 0;
+  }
+  body #about-us .about-us-pictures {
+    height: 290px;
+  }
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -511,12 +562,13 @@ body #portfolio .portfolio-content .portfolio-leo .portfolio-post-row .portfolio
   box-shadow: #211a42 0px 20px 20px;
 }
 body #portfolio .portfolio-content .portfolio-leo .portfolio-post-row .portfolio-post img:hover {
+  transform: translate(0, -5px);
   cursor: pointer;
   box-shadow: #e7b550 0px 20px 20px;
 }
 body #portfolio .portfolio-content .portfolio-leo .portfolio-post-row .portfolio-post a {
   position: relative;
-  top: -54px;
+  top: -58px;
   display: block;
   text-decoration: none;
   color: #605579;
@@ -535,17 +587,26 @@ body #portfolio .portfolio-content .portfolio-rei .portfolio-post-row .portfolio
   box-shadow: #211a42 0px 20px 20px;
 }
 body #portfolio .portfolio-content .portfolio-rei .portfolio-post-row .portfolio-post img:hover {
+  transform: translate(0, -5px);
   cursor: pointer;
   box-shadow: #e7b550 0px 20px 20px;
 }
 body #portfolio .portfolio-content .portfolio-rei .portfolio-post-row .portfolio-post a {
   position: relative;
-  top: -54px;
+  top: -58px;
   display: block;
   text-decoration: none;
   color: #605579;
 }
 
+@media all and (min-width: 768px) {
+  body #portfolio .portfolio-content .portfolio-leo .portfolio-post-row {
+    display: flex;
+  }
+  body #portfolio .portfolio-content .portfolio-rei .portfolio-post-row {
+    display: flex;
+  }
+}
 body .separator.thick {
   margin-top: 2px;
 }
@@ -618,6 +679,33 @@ body #commissions .commissions-prices .main-commissions-container.rei .commissio
   font-weight: 600;
 }
 
+@media all and (min-width: 576px) {
+  body #commissions {
+    padding: 0 30px;
+    padding-bottom: 60px;
+  }
+  body #commissions .commissions-prices {
+    margin-top: 40px;
+    padding: 0 40px;
+  }
+}
+@media all and (min-width: 768px) {
+  body #commissions {
+    padding: 0 30px;
+    padding-bottom: 60px;
+  }
+  body #commissions .commissions-prices {
+    display: flex;
+  }
+  body #commissions .commissions-prices .main-commissions-container.leo {
+    height: 800px;
+    margin: 20px;
+  }
+  body #commissions .commissions-prices .main-commissions-container.rei {
+    height: 800px;
+    margin: 20px;
+  }
+}
 body #contact {
   padding: 40px 30px;
   padding-bottom: 60px;

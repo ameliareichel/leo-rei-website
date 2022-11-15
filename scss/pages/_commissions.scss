@@ -106,3 +106,43 @@ body {
         }
     }
 }
+
+@media all and (min-width: $small-size) {
+    body {
+
+        #commissions {
+            padding: 0 30px;
+            padding-bottom: 60px;
+
+            .commissions-prices {
+                margin-top: 40px;
+                padding: 0 40px;
+            }
+        }
+    }
+}
+
+@media all and (min-width: $medium-size) {
+    body {
+
+        #commissions {
+            padding: 0 30px;
+            padding-bottom: 60px;
+
+            .commissions-prices {
+                display: flex;
+                
+
+                .main-commissions-container.leo {
+                    height: 800px;
+                    margin: 20px;
+                }
+
+                .main-commissions-container.rei {
+                    height: 800px;
+                    margin: 20px;
+                }
+            }
+        }
+    }
+}
